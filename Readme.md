@@ -26,6 +26,7 @@ then actuates the thermostat temperature as per the rules as follows:
 The Process P1 then prints the revised temperature at each of the locations.
 
 2. Implementation of shared memory - sharedMemory folder
+
 Question: Password Strength Calculator – Using Shared memory
 Consider three processes P1, P2, and P3 sharing a memory space. Process P1 receives a
 character array, password, of length 10 (contains both special character as well as
@@ -41,6 +42,7 @@ Process P3 then communicates to Process P1 the strength of the password as ‘St
 ‘Weak’.
 
 3. Implementation of message Queues - messageQueues folder
+
 Question: Consider the scenario where there are five students (ID: 1-5), a Teaching Assistant (TA)
 [ID: 10], and a Course Instructor (CI) [ID: 100] in a class. The CI sends the marks scored
 (out of 50) by the five students via a message queue so that only the particular student
