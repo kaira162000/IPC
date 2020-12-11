@@ -7,10 +7,10 @@ make:
 	gcc -o ./messageQueues/TA.out ./messageQueues/TA.c
 	gcc -o ./messageQueues/student.out ./messageQueues/student.c
 clean:
-	rm NamedandUnnamedPipes.out
-	rm ./sharedMemory/process1
-	rm ./sharedMemory/process2
-	rm ./sharedMemory/process3
+	rm ./NamedandUnnamedPipes.out
+	rm ./sharedMemory/process1.out
+	rm ./sharedMemory/process2.out
+	rm ./sharedMemory/process3.out
 	rm ./messageQueues/CI.out
 	rm ./messageQueues/TA.out
 	rm ./messageQueues/student.out
